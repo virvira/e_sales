@@ -89,5 +89,3 @@ class FactoryView(RetrieveUpdateDestroyAPIView):
     serializer_class = FactorySerializer
     queryset = Factory.objects.all()
     permission_classes = [permissions.IsActiveUserPermission]
-
-

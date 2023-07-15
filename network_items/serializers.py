@@ -175,4 +175,3 @@ class FactorySerializer(serializers.ModelSerializer):
         factory.save()
 
         return factory
-

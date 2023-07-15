@@ -23,5 +23,3 @@ class UserLoginView(generics.CreateAPIView):
         serializer.is_valid(raise_exception=True)
         login(request=request, user=serializer.save())
         return Response(serializer.data)
-
-
